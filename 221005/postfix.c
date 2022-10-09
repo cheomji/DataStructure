@@ -22,7 +22,7 @@ typedef enum { lparen, rparen, plus, minus, times, divide, mod, eos, operand } p
 static int isp[] = { 0, 19, 12, 12, 13, 13, 13, 0 };
 static int icp[] = { 20, 19, 12, 12, 13, 13, 13, 0 };
 int stack[MAX];
-char expr[MAX];
+char expr[MAX]; //char형을 전역변수로 선언하면 모든 곳에 \0(null)이 들어감
 int top;
 
 void push(int input);

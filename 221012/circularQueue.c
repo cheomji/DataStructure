@@ -14,8 +14,6 @@ void addAnddelete(FILE *fp, int size);
 int main(void) {
     FILE* f1, *f2, *f3;
     int size;
-    element input;
-    char ch;
 
     f1 = fopen("in1.txt", "r");
     size = createq(f1);

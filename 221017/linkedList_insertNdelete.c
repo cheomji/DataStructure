@@ -129,7 +129,7 @@ listPointer insertNode(listPointer head, int input) {
 }
 listPointer deletetNode(listPointer head, int input) {
 	listPointer prev = NULL, cur = head;
-	if (head->data == input) {
+	if (head->data == input) { // == 해야되는데 등신같이 = 해놓고 왜안되냐고 몇분동안 지랄하고 있었음 ㅉㅉ
 		head = head->link;
 		free(cur);
 	}

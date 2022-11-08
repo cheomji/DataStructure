@@ -78,7 +78,7 @@ treePointer deleteq() {
 	if (front == rear) {
 		return NULL;
 	}
-	return queue[++front];
+	return queue[++front]; // 이거 front++ 로 했었는데 생각해보니까 그렇게 하면 안되네 
 }
 void inorder(treePointer ptr) {
 	if (ptr) {

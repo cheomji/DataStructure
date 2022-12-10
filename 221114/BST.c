@@ -73,6 +73,22 @@ treePointer modifiedSearch(treePointer tree, int searchnum) {
 	}
 	return p;
 }
+/* modified search 코드는 요게 더 나을듯!!
+treePointer search(treePointer node, int searchnum) {
+	while (node) {
+		if (searchnum == node->data) return NULL;
+		if (searchnum < node->data) {
+			if (node->leftChild == NULL) return node;
+			node = node->leftChild;
+		}
+		else {
+			if (node->rightChild == NULL) return node;
+			node = node->rightChild;
+		}
+	}
+	return node;
+}
+*/
 void postorder(treePointer tree) {
 	if (tree) {
 		postorder(tree->leftChild);

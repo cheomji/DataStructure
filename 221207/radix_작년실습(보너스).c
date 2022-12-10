@@ -1,3 +1,4 @@
+// 개같이 실패한 내림차순 정렬!! 어케하는지 모르곘ㅆ다 !!!
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,4 +1,5 @@
 //교수님 코드는 visit 말고 out 씀. 이건 논리 
+//왜쓰다말앗냐? 논리 걍 반대로 하면됨
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>

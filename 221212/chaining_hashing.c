@@ -1,4 +1,4 @@
-// 망햇어요.. chaining은 아님 근데
+// 망햇어요.. chaining은 맞냐 이거 근데?
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
